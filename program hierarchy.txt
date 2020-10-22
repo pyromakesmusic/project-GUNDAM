@@ -1,0 +1,50 @@
+Define the problem:
+
+I want to build a suit of power armor that will help me protect people.
+
+Define your tools, targets, and backup plan:
+
+Target users:
+
+Me. I want a focus on redundancy, light weight, mobility, and communications.
+
+Target architecture:
+
+Microcontroller connected to a mini computer running the most stable OS for the 
+application I can find.
+
+Tools:
+
+Code::Blocks
+Arduino
+
+Alone or with a team:
+
+Alone for now
+
+Requirements:
+
+ Mobility
+  Actuators must move in response to EMG + MMG signal, accurately.
+   A microcontroller must receive input from EMG and MMG sensors and put it into arrays.
+   A computer must apply machine-learned curves to those arrays to convert them into
+   output information for the actuators.
+    A machine-learning algorithm must have an established dataset from which to construct
+    a curve.
+   The signal must be smooth and free from errors.
+ Security
+  Architecture must be invulnerable to penetration attempts.
+ Communications
+  Must be WiFi-capable.
+  Must be Bluetooth-equipped.
+  Must be able to sweep large bands of the radio signal spectrum.
+
+Testing strategy:
+
+Feedback strategy:
+
+Release strategy:
+
+Backup plan:
+
+I will backup my code securely at least once every day.
